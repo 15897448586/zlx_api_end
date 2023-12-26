@@ -77,4 +77,9 @@ public class CrawlerTest {
         boolean b = postService.saveBatch(postList);
         Assertions.assertTrue(b);
     }
+
+    @Test
+    void testFetchMusic() {
+
+    }
 }

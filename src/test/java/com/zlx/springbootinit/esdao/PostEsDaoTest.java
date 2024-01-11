@@ -43,15 +43,17 @@ public class PostEsDaoTest {
         Page<PostEsDTO> PostPage = postEsDao.findAll(
                 PageRequest.of(0, 5, Sort.by("createTime")));
         List<PostEsDTO> postList = PostPage.getContent();
+        Optional<PostEsDTO> byId = postEsDao.findById(1L);
+        System.out.println(byId);
         System.out.println(postList);
     }
 
     @Test
     void testAdd() {
         PostEsDTO postEsDTO = new PostEsDTO();
-        postEsDTO.setId(1L);
-        postEsDTO.setTitle("test");
-        postEsDTO.setContent("test");
+        postEsDTO.setId(3L);
+        postEsDTO.setTitle("张礼雄雄dsasjajkjfksjz礼张hjkshjksafhasghfsk");
+        postEsDTO.setContent("张礼cxzxfdkdfeieojfsd雄真帅，太帅了，帅帅帅帅帅帅帅帅帅帅帅帅fadhjfdahfauiufdhafaiuhuias");
         postEsDTO.setTags(Arrays.asList("java", "python"));
         postEsDTO.setThumbNum(1);
         postEsDTO.setFavourNum(1);

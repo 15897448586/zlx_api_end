@@ -43,8 +43,8 @@ public class CrawlerTest {
             //取图片名称
             Map<String,Object> map = JSONUtil.toBean(m, Map.class);
             String murl = (String)map.get("murl");
-            System.out.println(murl);
-            System.out.println(title);
+//            System.out.println(murl);
+//            System.out.println(title);
             Picture picture = new Picture();
             picture.setUrl(murl);
             picture.setTitle(title);

@@ -25,7 +25,7 @@ import java.util.stream.Collectors;
  * @author zlx
  */
 //取消注释，则在springboot重启时执行
-@Component
+//@Component
 @Slf4j
 public class FetchInitPostList implements CommandLineRunner {
 

@@ -1,6 +1,6 @@
 package com.zlx.springbootinit.job.once;
 
-import com.zlx.springbootinit.esdao.PostEsDao;
+import com.zlx.springbootinit.service.esdao.PostEsDao;
 import com.zlx.springbootinit.model.dto.post.PostEsDTO;
 import com.zlx.springbootinit.model.entity.Post;
 import com.zlx.springbootinit.service.PostService;

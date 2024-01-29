@@ -4,20 +4,15 @@ import cn.hutool.http.HttpRequest;
 import cn.hutool.json.JSONArray;
 import cn.hutool.json.JSONObject;
 import cn.hutool.json.JSONUtil;
-import com.zlx.springbootinit.esdao.PostEsDao;
-import com.zlx.springbootinit.model.dto.post.PostEsDTO;
 import com.zlx.springbootinit.model.entity.Post;
 import com.zlx.springbootinit.service.PostService;
 import lombok.extern.slf4j.Slf4j;
-import org.apache.commons.collections4.CollectionUtils;
 import org.springframework.boot.CommandLineRunner;
-import org.springframework.stereotype.Component;
 
 import javax.annotation.Resource;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Map;
-import java.util.stream.Collectors;
 
 /**
  * 获取初始化定时梯子

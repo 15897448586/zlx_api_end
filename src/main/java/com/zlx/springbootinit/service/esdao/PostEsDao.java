@@ -1,4 +1,4 @@
-package com.zlx.springbootinit.esdao;
+package com.zlx.springbootinit.service.esdao;
 
 import com.zlx.springbootinit.model.dto.post.PostEsDTO;
 import java.util.List;

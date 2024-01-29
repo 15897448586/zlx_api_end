@@ -2,10 +2,10 @@
 
 
 -- 创建库
-create database if not exists x_search;
+create database if not exists zlx_api;
 
 -- 切换库
-use x_search;
+use zlx_api;
 
 -- 用户表
 create table if not exists user

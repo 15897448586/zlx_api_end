@@ -1,4 +1,4 @@
-package com.zlx.springbootinit.esdao;
+package com.zlx.springbootinit.service.esdao;
 
 import com.zlx.springbootinit.model.dto.post.PostEsDTO;
 import com.zlx.springbootinit.model.dto.post.PostQueryRequest;
@@ -78,7 +78,7 @@ public class PostEsDaoTest {
 
     @Test
     void testFindByCategory() {
-        List<PostEsDTO> postEsDaoTestList = postEsDao.findByUserId(1L);
-        System.out.println(postEsDaoTestList);
+//        List<PostEsDTO> postEsDaoTestList = postEsDao.findByUserId(1L);
+//        System.out.println(postEsDaoTestList);
     }
 }

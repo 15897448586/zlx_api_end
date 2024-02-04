@@ -89,3 +89,8 @@ cos:
     secretKey: xxx
     region: xxx
     bucket: xxx
+
+zlxapi:
+  client:
+    access-key: zlx
+    secret-key: abcdefgh

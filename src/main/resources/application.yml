@@ -20,7 +20,7 @@ spring:
   # todo 需替换配置
   datasource:
     driver-class-name: com.mysql.cj.jdbc.Driver
-    url: jdbc:mysql://localhost:3306/zlx_api
+    url: jdbc:mysql://47.103.119.75:3306/zlx_api
     username: root
     password: 200424zlx
   # Redis 配置

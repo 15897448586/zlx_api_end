@@ -7,9 +7,13 @@ import com.zlx.springbootinit.common.BaseResponse;
 import com.zlx.springbootinit.common.DeleteRequest;
 import com.zlx.springbootinit.common.ErrorCode;
 import com.zlx.springbootinit.common.ResultUtils;
+import com.zlx.springbootinit.constant.CommonConstant;
 import com.zlx.springbootinit.constant.UserConstant;
 import com.zlx.springbootinit.exception.BusinessException;
 import com.zlx.springbootinit.model.dto.userinterfaceinfo.UserInterfaceInfoAddRequest;
+import com.zlx.springbootinit.model.dto.userinterfaceinfo.UserInterfaceInfoQueryRequest;
+import com.zlx.springbootinit.model.dto.userinterfaceinfo.UserInterfaceInfoUpdateRequest;
+import com.zlx.springbootinit.model.entity.User;
 import com.zlx.springbootinit.model.entity.UserInterfaceInfo;
 import com.zlx.springbootinit.service.UserInterfaceInfoService;
 import com.zlx.springbootinit.service.UserService;
@@ -40,13 +44,13 @@ public class UserInterfaceInfoController {
 
     // region 增删改查
 
-/*    *//**
+/**
      * 创建
      *
      * @param userInterfaceInfoAddRequest
      * @param request
      * @return
-     *//*
+     */
     @PostMapping("/add")
     @AuthCheck(mustRole = UserConstant.ADMIN_ROLE)
     public BaseResponse<Long> addUserInterfaceInfo(@RequestBody UserInterfaceInfoAddRequest userInterfaceInfoAddRequest, HttpServletRequest request) {
@@ -67,13 +71,13 @@ public class UserInterfaceInfoController {
         return ResultUtils.success(newUserInterfaceInfoId);
     }
 
-    *//**
+    /**
      * 删除
      *
      * @param deleteRequest
      * @param request
      * @return
-     *//*
+     */
     @PostMapping("/delete")
     @AuthCheck(mustRole = UserConstant.ADMIN_ROLE)
     public BaseResponse<Boolean> deleteUserInterfaceInfo(@RequestBody DeleteRequest deleteRequest, HttpServletRequest request) {
@@ -95,13 +99,13 @@ public class UserInterfaceInfoController {
         return ResultUtils.success(b);
     }
 
-    *//**
+    /**
      * 更新
      *
      * @param userInterfaceInfoUpdateRequest
      * @param request
      * @return
-     *//*
+     */
     @PostMapping("/update")
     @AuthCheck(mustRole = UserConstant.ADMIN_ROLE)
     public BaseResponse<Boolean> updateUserInterfaceInfo(@RequestBody UserInterfaceInfoUpdateRequest userInterfaceInfoUpdateRequest,
@@ -128,12 +132,12 @@ public class UserInterfaceInfoController {
         return ResultUtils.success(result);
     }
 
-    *//**
+    /**
      * 根据 id 获取
      *
      * @param id
      * @return
-     *//*
+     */
     @GetMapping("/get")
     @AuthCheck(mustRole = UserConstant.ADMIN_ROLE)
     public BaseResponse<UserInterfaceInfo> getUserInterfaceInfoById(long id) {
@@ -144,12 +148,12 @@ public class UserInterfaceInfoController {
         return ResultUtils.success(userInterfaceInfo);
     }
 
-    *//**
+    /**
      * 获取列表（仅管理员可使用）
      *
      * @param userInterfaceInfoQueryRequest
      * @return
-     *//*
+     */
     @AuthCheck(mustRole = UserConstant.ADMIN_ROLE)
     @GetMapping("/list")
     public BaseResponse<List<UserInterfaceInfo>> listUserInterfaceInfo(UserInterfaceInfoQueryRequest userInterfaceInfoQueryRequest) {
@@ -162,13 +166,13 @@ public class UserInterfaceInfoController {
         return ResultUtils.success(userInterfaceInfoList);
     }
 
-    *//**
+    /**
      * 分页获取列表
      *
      * @param userInterfaceInfoQueryRequest
      * @param request
      * @return
-     *//*
+     */
     @AuthCheck(mustRole = UserConstant.ADMIN_ROLE)
     @GetMapping("/list/page")
     public BaseResponse<Page<UserInterfaceInfo>> listUserInterfaceInfoByPage(UserInterfaceInfoQueryRequest userInterfaceInfoQueryRequest, HttpServletRequest request) {
@@ -190,7 +194,7 @@ public class UserInterfaceInfoController {
                 sortOrder.equals(CommonConstant.SORT_ORDER_ASC), sortField);
         Page<UserInterfaceInfo> userInterfaceInfoPage = userInterfaceInfoService.page(new Page<>(current, size), queryWrapper);
         return ResultUtils.success(userInterfaceInfoPage);
-    }*/
+    }
 
     // endregion
 

@@ -2,6 +2,7 @@ package com.zlx.springbootinit.controller;
 
 import com.baomidou.mybatisplus.core.conditions.query.QueryWrapper;
 import com.baomidou.mybatisplus.extension.plugins.pagination.Page;
+import com.zlx.api_comon.model.entity.UserInterfaceInfo;
 import com.zlx.springbootinit.annotation.AuthCheck;
 import com.zlx.springbootinit.common.BaseResponse;
 import com.zlx.springbootinit.common.DeleteRequest;
@@ -13,8 +14,7 @@ import com.zlx.springbootinit.exception.BusinessException;
 import com.zlx.springbootinit.model.dto.userinterfaceinfo.UserInterfaceInfoAddRequest;
 import com.zlx.springbootinit.model.dto.userinterfaceinfo.UserInterfaceInfoQueryRequest;
 import com.zlx.springbootinit.model.dto.userinterfaceinfo.UserInterfaceInfoUpdateRequest;
-import com.zlx.springbootinit.model.entity.User;
-import com.zlx.springbootinit.model.entity.UserInterfaceInfo;
+import com.zlx.api_comon.model.entity.User;
 import com.zlx.springbootinit.service.UserInterfaceInfoService;
 import com.zlx.springbootinit.service.UserService;
 import lombok.extern.slf4j.Slf4j;

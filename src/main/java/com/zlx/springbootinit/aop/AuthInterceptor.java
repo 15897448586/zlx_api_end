@@ -3,7 +3,7 @@ package com.zlx.springbootinit.aop;
 import com.zlx.springbootinit.annotation.AuthCheck;
 import com.zlx.springbootinit.common.ErrorCode;
 import com.zlx.springbootinit.exception.BusinessException;
-import com.zlx.springbootinit.model.entity.User;
+import com.zlx.api_comon.model.entity.User;
 import com.zlx.springbootinit.model.enums.UserRoleEnum;
 import com.zlx.springbootinit.service.UserService;
 import javax.annotation.Resource;

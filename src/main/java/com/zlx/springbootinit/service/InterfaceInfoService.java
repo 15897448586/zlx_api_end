@@ -1,7 +1,7 @@
 package com.zlx.springbootinit.service;
 
-import com.zlx.springbootinit.model.entity.InterfaceInfo;
 import com.baomidou.mybatisplus.extension.service.IService;
+import com.zlx.api_comon.model.entity.InterfaceInfo;
 
 /**
 * @author zlx

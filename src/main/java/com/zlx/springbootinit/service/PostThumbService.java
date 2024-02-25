@@ -2,7 +2,7 @@ package com.zlx.springbootinit.service;
 
 import com.zlx.springbootinit.model.entity.PostThumb;
 import com.baomidou.mybatisplus.extension.service.IService;
-import com.zlx.springbootinit.model.entity.User;
+import com.zlx.api_comon.model.entity.User;
 
 /**
  * 帖子点赞服务

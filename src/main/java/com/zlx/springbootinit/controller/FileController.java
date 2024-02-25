@@ -8,7 +8,7 @@ import com.zlx.springbootinit.constant.FileConstant;
 import com.zlx.springbootinit.exception.BusinessException;
 import com.zlx.springbootinit.manager.CosManager;
 import com.zlx.springbootinit.model.dto.file.UploadFileRequest;
-import com.zlx.springbootinit.model.entity.User;
+import com.zlx.api_comon.model.entity.User;
 import com.zlx.springbootinit.model.enums.FileUploadBizEnum;
 import com.zlx.springbootinit.service.UserService;
 import java.io.File;

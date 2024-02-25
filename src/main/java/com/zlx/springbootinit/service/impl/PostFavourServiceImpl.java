@@ -10,7 +10,7 @@ import com.zlx.springbootinit.exception.BusinessException;
 import com.zlx.springbootinit.mapper.PostFavourMapper;
 import com.zlx.springbootinit.model.entity.Post;
 import com.zlx.springbootinit.model.entity.PostFavour;
-import com.zlx.springbootinit.model.entity.User;
+import com.zlx.api_comon.model.entity.User;
 import com.zlx.springbootinit.service.PostFavourService;
 import com.zlx.springbootinit.service.PostService;
 import javax.annotation.Resource;

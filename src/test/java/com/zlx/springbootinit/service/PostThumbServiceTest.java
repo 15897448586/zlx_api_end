@@ -1,6 +1,6 @@
 package com.zlx.springbootinit.service;
 
-import com.zlx.springbootinit.model.entity.User;
+import com.zlx.api_comon.model.entity.User;
 import javax.annotation.Resource;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.BeforeAll;

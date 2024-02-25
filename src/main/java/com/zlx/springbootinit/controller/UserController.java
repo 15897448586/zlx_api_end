@@ -16,7 +16,7 @@ import com.zlx.springbootinit.model.dto.user.UserQueryRequest;
 import com.zlx.springbootinit.model.dto.user.UserRegisterRequest;
 import com.zlx.springbootinit.model.dto.user.UserUpdateMyRequest;
 import com.zlx.springbootinit.model.dto.user.UserUpdateRequest;
-import com.zlx.springbootinit.model.entity.User;
+import com.zlx.api_comon.model.entity.User;
 import com.zlx.springbootinit.model.vo.LoginUserVO;
 import com.zlx.springbootinit.model.vo.UserVO;
 import com.zlx.springbootinit.service.UserService;

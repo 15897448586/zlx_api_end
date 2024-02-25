@@ -2,10 +2,10 @@ package com.zlx.springbootinit.service.impl;
 
 import com.baomidou.mybatisplus.core.conditions.update.UpdateWrapper;
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
+import com.zlx.api_comon.model.entity.UserInterfaceInfo;
 import com.zlx.springbootinit.common.ErrorCode;
 import com.zlx.springbootinit.exception.BusinessException;
 import com.zlx.springbootinit.mapper.UserInterfaceInfoMapper;
-import com.zlx.springbootinit.model.entity.UserInterfaceInfo;
 import com.zlx.springbootinit.service.UserInterfaceInfoService;
 import org.springframework.stereotype.Service;
 

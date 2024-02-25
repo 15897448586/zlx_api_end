@@ -9,7 +9,7 @@ import com.zlx.springbootinit.constant.CommonConstant;
 import com.zlx.springbootinit.exception.BusinessException;
 import com.zlx.springbootinit.mapper.UserMapper;
 import com.zlx.springbootinit.model.dto.user.UserQueryRequest;
-import com.zlx.springbootinit.model.entity.User;
+import com.zlx.api_comon.model.entity.User;
 import com.zlx.springbootinit.model.enums.UserRoleEnum;
 import com.zlx.springbootinit.model.vo.LoginUserVO;
 import com.zlx.springbootinit.model.vo.UserVO;

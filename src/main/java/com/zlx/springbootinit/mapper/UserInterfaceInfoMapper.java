@@ -1,7 +1,7 @@
 package com.zlx.springbootinit.mapper;
 
 import com.baomidou.mybatisplus.core.mapper.BaseMapper;
-import com.zlx.springbootinit.model.entity.UserInterfaceInfo;
+import com.zlx.api_comon.model.entity.UserInterfaceInfo;
 
 import java.util.List;
 

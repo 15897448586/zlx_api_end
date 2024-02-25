@@ -3,7 +3,7 @@ package com.zlx.springbootinit.service.impl;
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
 import com.zlx.springbootinit.common.ErrorCode;
 import com.zlx.springbootinit.exception.BusinessException;
-import com.zlx.springbootinit.model.entity.InterfaceInfo;
+import com.zlx.api_comon.model.entity.InterfaceInfo;
 import com.zlx.springbootinit.service.InterfaceInfoService;
 import com.zlx.springbootinit.mapper.InterfaceInfoMapper;
 import org.apache.commons.lang3.StringUtils;

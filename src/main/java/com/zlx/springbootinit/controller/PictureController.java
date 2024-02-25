@@ -17,7 +17,7 @@ import com.zlx.springbootinit.model.dto.post.PostQueryRequest;
 import com.zlx.springbootinit.model.dto.post.PostUpdateRequest;
 import com.zlx.springbootinit.model.entity.Picture;
 import com.zlx.springbootinit.model.entity.Post;
-import com.zlx.springbootinit.model.entity.User;
+import com.zlx.api_comon.model.entity.User;
 import com.zlx.springbootinit.model.vo.PostVO;
 import com.zlx.springbootinit.service.PictureService;
 import com.zlx.springbootinit.service.PostService;

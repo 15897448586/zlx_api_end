@@ -1,6 +1,6 @@
 package com.zlx.springbootinit.mapper;
 
-import com.zlx.springbootinit.model.entity.InterfaceInfo;
+import com.zlx.api_comon.model.entity.InterfaceInfo;
 import com.baomidou.mybatisplus.core.mapper.BaseMapper;
 
 /**

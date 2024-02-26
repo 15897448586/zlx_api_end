@@ -98,7 +98,9 @@ dubbo:
     port: 22221
   registry:
     id: nacos-registry
-    address: nacos://localhost:8848
+    address: nacos://127.0.0.1:8848
+  scan:
+    base-packages: com.zlx.api_comon.service
 
 zlxapi:
   client:

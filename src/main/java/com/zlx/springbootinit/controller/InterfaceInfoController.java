@@ -291,7 +291,7 @@ public class InterfaceInfoController {
         String secretKey = loginUser.getSecretKey();
         ZLXApiClient tempClient = new ZLXApiClient(accessKey, secretKey);
         Gson gson = new Gson();
-        com.zlx.zlxclientsdk.model.User user = new com.zlx.zlxclientsdk.model.User();
+        com.zlx.zlxclientsdk.model.User user = gson.fromJson(userRequestParams, com.zlx.zlxclientsdk.model.User.class);
         String usernameByPost = tempClient.getUsernameByPost(user);
         return ResultUtils.success(usernameByPost);
     }

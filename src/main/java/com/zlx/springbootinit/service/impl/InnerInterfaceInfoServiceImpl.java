@@ -8,6 +8,7 @@ import com.zlx.springbootinit.exception.BusinessException;
 import com.zlx.springbootinit.mapper.InterfaceInfoMapper;
 import org.apache.commons.lang3.StringUtils;
 import org.apache.dubbo.config.annotation.DubboService;
+import org.springframework.stereotype.Service;
 
 import javax.annotation.Resource;
 
